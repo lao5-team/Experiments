@@ -1,0 +1,83 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <!--div class="list card">
+      <div class="item item-divider">Recent Updates</div>
+      <div class="item item-body">
+        <div>
+          There is a fire in <b>sector 3</b>
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Health</div>
+      <div class="item item-body">
+        <div>
+          You ate an apple today!
+        </div>
+      </div>
+    </div>
+    <div class="list card">
+      <div class="item item-divider">Upcoming</div>
+      <div class="item item-body">
+        <div>
+          You have <b>29</b> meetings on your calendar tomorrow.
+        </div>
+      </div>
+    </div-->
+            <div class="bar bar-header  bar-royal">
+            <a href="#/app/capture" class="button button-icon icon ion-gear-a"></a>
+            <h1 class="title">合同新建</h1>
+            <a href="#/app/playlists" class="button button-icon icon ion-heart"></a>
+        </div>
+
+<div class="list" ng-controller='DashCtrl'>
+
+  
+  <label class="item item-input"> test</label>
+
+    <label class="item item-input">
+    <span class="input-label" ng-model="token">名称</span>
+    <input type="text">
+    </label>
+
+    <label class="item item-input">
+    <span class="input-label" ng-model="token">{{token}}</span>
+    <input type="text">
+    </label>
+
+    <label class="item item-input">
+    <span class="input-label">开始日期</span>
+    <input type="text">
+    </label>
+
+    <label class="item item-input">
+    <span class="input-label">结束日期</span>
+    <input type="text">
+    </label>
+
+    <label class="item item-input">
+    <span class="input-label">金额</span>
+    <input type="text">
+    </label>
+
+    <label class="item item-input">
+    <span class="input-label">业务机会名称</span>
+    <input type="text">
+    </label>
+
+    <label class="item item-input">
+    <span class="input-label">备注</span>
+    <input type="text">
+
+        <label class="item item-input">
+    <span class="input-label">{{token}}</span>
+    <input type="text">
+    </label>
+
+
+  <body>
+  <div ng-controller='DashCtrl'>
+    <p>{{token}}, World</p> </div>
+  </body>
+  </ion-content>
+</ion-view>
